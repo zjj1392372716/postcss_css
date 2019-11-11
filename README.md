@@ -1,5 +1,5 @@
 
-# 03. PostCSS 初识
+# PostCSS 初识
 > PostCSS 是一款用js插件来处理CSS的工具。同我们使用的sass、less 有相似之处，但是也有很多它自己独特的优势。
 
 PostCSS对css的转换与处理，依赖于插件，当下它已经拥有了很多插件，同时我们也可以自定义自己的插件，以我们自己的方式去处理CSS。
@@ -108,7 +108,7 @@ module.exports = {
 ## 以主题切换为例学习
 这里的主题切换采用的是一个 `postcss-theme-colors` 插件。那么如何自定义一个自己的postcss插件呢？
 
-[](https://ask.qcloudimg.com/http-save/yehe-110536/rq3myvj0l7.png?imageView2/2/w/1620)
+[](./rq3myvj0l7.png)
 
 > 以上是一张官方提供的原理图：原理好理解，首先拿到上一步传入的 CSS ，然后根据一定的rule 解析(Parser)成一个 节点树。然后借助于插件进行处理转换，并最终通过 Stringifier 进行拼接，最终生成新的 CSS。source map则记录了前后的对应关系。
 
