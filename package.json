@@ -1,0 +1,40 @@
+{
+  "name": "PostcssDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "wangshijun <wangshijun2010@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-nesting": "^7.0.1",
+    "postcss-px2rem": "^0.3.0",
+    "postcss-theme-colors": "^0.2.1",
+    "style-loader": "^1.0.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "@iget/luojilab-postcss-theme-color": "^12.0.0",
+    "@iget/postcss-config-hermanni": "^1.8.9",
+    "autoprefixer": "^9.7.1",
+    "postcss-apply": "^0.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-partial-import": "^4.1.0",
+    "precss": "^4.0.0",
+    "stylelint": "^11.1.1",
+    "stylelint-order": "^3.1.1",
+    "sugarss": "^2.0.0",
+    "webpack-cli": "^3.3.10"
+  }
+}

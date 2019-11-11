@@ -1,0 +1,8 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+  "rules": {
+    "at-rule-no-unknown": [true, {"ignoreAtRules" :[
+      "mixin", "extend", "content" // at-rule-no-unknown 是为了让 Stylelint 支持 SCSS 语法中的 mixin、extend、content 语法。
+    ]}]
+  }
+}
